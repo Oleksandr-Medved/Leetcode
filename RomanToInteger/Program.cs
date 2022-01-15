@@ -41,7 +41,7 @@
 //Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 
-var result = RomanToInt("MDCXCV");
+var result = RomanToInt("LIV");
 
 Console.WriteLine(result);
 
@@ -49,7 +49,7 @@ Console.ReadLine();
 
 static int RomanToInt(string s)
 {
-    var dictRomanNumbers = new Dictionary<string, int>()
+    var romanNumbers = new Dictionary<string, int>()
     {
         ["I"] = 1,
         ["V"] = 5,
@@ -60,42 +60,15 @@ static int RomanToInt(string s)
         ["M"] = 1000
     };
 
-    var exeptionRomanNumbers = new Dictionary<string, int>()
-    {
-        ["IV"] = 4,
-        ["IX"] = 9,
-        ["XL"] = 40,
-        ["XC"] = 90,
-        ["CD"] = 400,
-        ["CM"] = 900
-    };
-
-
-
     var sum = 0;
-
-    var skipped = false;
 
     for (int i = 0; i < s.Length; i++)
     {
-        if (i + 1 <= s.Length - 1)
+        if(i+ 1 <= s.Length - 1 && romanNumbers[s[i + 1].ToString()] > romanNumbers[s[i].ToString()])
         {
-            var romanNumber = s[i].ToString() + s[i + 1].ToString();
-
-            if (exeptionRomanNumbers.ContainsKey(romanNumber))
-            {
-                sum += exeptionRomanNumbers[romanNumber];
-                i++;
-                skipped = true;
-            }
-            else skipped = false;
+            sum -= romanNumbers[s[i].ToString()];
         }
-        else skipped = false;
-
-        if(!skipped)
-        {
-            sum += dictRomanNumbers[s[i].ToString()];            
-        }            
+        else sum += romanNumbers[s[i].ToString()];
     }
 
     return sum;
