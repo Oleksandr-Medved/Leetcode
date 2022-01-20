@@ -5,17 +5,19 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "Leetcode\TwoSum.csproj", "{4AC9E75A-030E-4482-9F75-503F19C8E28D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNamber", "PalindromeNamber\PalindromeNamber.csproj", "{1D86F666-DF8F-4C44-8C41-E9AFBAB5C342}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeNamber", "PalindromeNamber\PalindromeNamber.csproj", "{1D86F666-DF8F-4C44-8C41-E9AFBAB5C342}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{6FA619EE-4AA7-4ABD-B2A0-7D8EBF03A067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{A732C45F-A497-4F82-9981-CF58023B632C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{A732C45F-A497-4F82-9981-CF58023B632C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.csproj", "{4D667083-1936-4F3C-BAB5-D971236F3A77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.csproj", "{4D667083-1936-4F3C-BAB5-D971236F3A77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParentheses", "ValidParentheses\ValidParentheses.csproj", "{A33241C0-FEAC-4433-B87F-6974D6D1D7F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParentheses", "ValidParentheses\ValidParentheses.csproj", "{A33241C0-FEAC-4433-B87F-6974D6D1D7F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedLists", "MergeTwoSortedLists\MergeTwoSortedLists.csproj", "{4BEA36C6-4AEE-4CA3-B6AA-D3036D4A5C10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoSortedLists", "MergeTwoSortedLists\MergeTwoSortedLists.csproj", "{4BEA36C6-4AEE-4CA3-B6AA-D3036D4A5C10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesfromSortedArray", "RemoveDuplicatesfromSortedArray\RemoveDuplicatesfromSortedArray.csproj", "{74C47F41-E805-4DF2-881A-34018963BB7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{4BEA36C6-4AEE-4CA3-B6AA-D3036D4A5C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BEA36C6-4AEE-4CA3-B6AA-D3036D4A5C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BEA36C6-4AEE-4CA3-B6AA-D3036D4A5C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C47F41-E805-4DF2-881A-34018963BB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C47F41-E805-4DF2-881A-34018963BB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C47F41-E805-4DF2-881A-34018963BB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C47F41-E805-4DF2-881A-34018963BB7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{4D667083-1936-4F3C-BAB5-D971236F3A77} = {6FA619EE-4AA7-4ABD-B2A0-7D8EBF03A067}
 		{A33241C0-FEAC-4433-B87F-6974D6D1D7F3} = {6FA619EE-4AA7-4ABD-B2A0-7D8EBF03A067}
 		{4BEA36C6-4AEE-4CA3-B6AA-D3036D4A5C10} = {6FA619EE-4AA7-4ABD-B2A0-7D8EBF03A067}
+		{74C47F41-E805-4DF2-881A-34018963BB7F} = {6FA619EE-4AA7-4ABD-B2A0-7D8EBF03A067}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5EB9961-633B-4170-AFA8-F4B5062B0CB5}
